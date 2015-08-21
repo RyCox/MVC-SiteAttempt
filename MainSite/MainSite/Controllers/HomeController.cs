@@ -15,14 +15,7 @@ namespace MainSite.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
-        }
-
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "This is where I keep info about me and how you can reach me if you want.";
 
             return View();
         }
