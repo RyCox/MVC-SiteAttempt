@@ -8,7 +8,7 @@ using System.Linq;
 
 namespace MainSite.Core
 {
-    public class BlogRepository
+    public class BlogRepository : IBlogRepository
     {
         // NHibernate object
         private readonly ISession _session;

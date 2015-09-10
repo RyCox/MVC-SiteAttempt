@@ -187,6 +187,19 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Themes\Simple\images\back.png" />
+    <Content Include="Content\Themes\Simple\images\banner.jpg" />
+    <Content Include="Content\Themes\Simple\images\bullet.png" />
+    <Content Include="Content\Themes\Simple\images\footer.png" />
+    <Content Include="Content\Themes\Simple\images\graphic.png" />
+    <Content Include="Content\Themes\Simple\images\link.png" />
+    <Content Include="Content\Themes\Simple\images\search.png" />
+    <Content Include="Content\Themes\Simple\images\side_back.png" />
+    <Content Include="Content\Themes\Simple\images\side_base.png" />
+    <Content Include="Content\Themes\Simple\images\side_top.png" />
+    <Content Include="Content\Themes\Simple\images\tab.png" />
+    <Content Include="Content\Themes\Simple\images\tab_selected.png" />
+    <Content Include="Content\Themes\Simple\style.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -239,10 +252,10 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Blog\List.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Blog\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

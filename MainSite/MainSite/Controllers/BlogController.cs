@@ -8,7 +8,7 @@ using MainSite.Models;
 
 namespace MainSite.Controllers
 {
-    public class BlogController
+    public class BlogController : Controller
     {
         private readonly IBlogRepository _blogRepository;
 
@@ -23,6 +23,14 @@ namespace MainSite.Controllers
 
             ViewBag.Title = "Latest Posts";
             return View("List", viewModel);
+        }
+
+        public ViewResult Contact()
+        {
+            var viewModel = new ListViewModel(_blogRepository, p);
+
+            ViewBag.Title = "Contact";
+            return View("Contact", viewModel);
         }
     }
 }
